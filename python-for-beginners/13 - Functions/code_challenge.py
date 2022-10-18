@@ -15,3 +15,15 @@
 # BONUS: Test your function with the values 6, 4 and divide 
 # Have your function return an error message when invalid values are received
 
+
+def calculator(first_num, second_num, op):
+    if op == 'add':
+        print(first_num + second_num)
+    elif op == 'subtract':
+        print(first_num - second_num)
+    else:
+        print('You can only do adding and subtracting')
+        
+calculator(6, 4, add)
+calculator(6, 4, subtract)
+calculator(6, 4, divide)
