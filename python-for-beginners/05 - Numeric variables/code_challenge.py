@@ -4,3 +4,8 @@
 # Print 'first number + second number = answer' 
 # For example if someone enters 4 and 6 the output should read
 # 4 + 6 = 10
+
+first = float(input())
+second = float(input())
+
+print(f'{first} + {second} = {first + second})
